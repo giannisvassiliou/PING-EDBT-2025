@@ -37,7 +37,7 @@
 ##### **translated_queries_folder:** the folder with the result SQL queries translated from the input sparql queries
 
  
-##### Firstly, run the summary.jar to create the summary (hierarchical levels) and the corresponding indexes
+#### Firstly, run the summary.jar to create the summary (hierarchical levels) and the corresponding indexes
 ##### ./run_psummary.sh  dataset_path summary_output_folder 
 
 ### To partition data using SMARTER use the script run_partitioner like this:

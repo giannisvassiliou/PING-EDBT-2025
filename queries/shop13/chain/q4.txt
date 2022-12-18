@@ -1,0 +1,1 @@
+PREFIX : <http://example.org/gmark/> SELECT DISTINCT ?x2 ?x1 ?x0 FROM NAMED <http://shop01> WHERE{  ?x0 <http://example.org/gmark/purchaseFor> ?x1 . ?x1 <http://example.org/gmark/hasReview> ?x2 . ?x2 <http://example.org/gmark/reviewer> ?x3 . ?x3 <http://example.org/gmark/friendOf> ?x4 . ?x4 <http://example.org/gmark/birthDate> ?x5  . }

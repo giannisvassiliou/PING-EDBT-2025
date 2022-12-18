@@ -1,0 +1,1 @@
+SELECT DISTINCT ?x0 ?x2 FROM NAMED <http://uniprot2> WHERE{  ?x0 <http://example.org/gmark/Interacts> ?x1 . ?x0 <http://example.org/gmark/HasKeyword> ?x3 . ?x2 <http://example.org/gmark/HasKeyword> ?x4 . ?x2 <http://example.org/gmark/HasKeyword> ?x5  . }

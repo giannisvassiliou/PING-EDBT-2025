@@ -1,0 +1,2 @@
+SELECT DISTINCT ?x3 FROM  <http://shop100bc> 
+wHERE{ <http://example.org/gmark/User_592221127> <http://example.org/gmark/follows> <http://example.org/gmark/User_690912910> . <http://example.org/gmark/User_690912910> <http://example.org/gmark/friendOf> <http://example.org/gmark/User_617671644> . <http://example.org/gmark/User_617671644> <http://example.org/gmark/like> ?x3 . }

@@ -1,0 +1,1 @@
+SELECT DISTINCT ?x0 ?x1 ?x2 FROM NAMED <http://shop01> WHERE{  ?x0 <http://example.org/gmark/homepage> ?x1 . ?x0 <http://example.org/gmark/trailer> ?x2 . ?x0 <http://example.org/gmark/trailer> ?x3 . ?x0 <http://example.org/gmark/homepage> ?x4  . }

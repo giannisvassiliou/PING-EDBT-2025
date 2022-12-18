@@ -1,0 +1,9 @@
+PREFIX rdf : http://www.w3.org/1999/02/22-rdf-syntax-ns#
+PREFIX db-ont : http://dbpedia.org/ontology/
+PREFIX dbpedia2 : http://dbpedia.org/property/
+SELECT *
+WHERE {
+?id http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Film .
+?id http://dbpedia.org/property/label ?ft .
+?id http://dbpedia.org/ontology/imdbId ?imdb_id .
+}

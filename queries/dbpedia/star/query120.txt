@@ -1,0 +1,5 @@
+SELECT *
+WHERE {
+?cat <http://www.w3.org/2004/02/skos/core#broader> <http://dbpedia.org/resource/Category:Buildings_and_structures_in_France> .
+?cat <http://www.w3.org/2004/02/skos/core#broader> <http://dbpedia.org/resource/Category:Visitor_attractions_in_France> .
+}

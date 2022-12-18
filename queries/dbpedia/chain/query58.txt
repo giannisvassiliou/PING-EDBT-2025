@@ -1,0 +1,5 @@
+PREFIX dbpedia : http://dbpedia.org/ontology/
+SELECT *
+WHERE {
+?movie <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> http://dbpedia.org/ontology/Film .
+}

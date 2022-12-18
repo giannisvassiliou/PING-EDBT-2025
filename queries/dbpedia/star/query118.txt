@@ -1,0 +1,10 @@
+PREFIX rdf : http://www.w3.org/1999/02/22-rdf-syntax-ns#
+PREFIX dbpo : http://dbpedia.org/ontology/
+PREFIX dbpedia2 : http://dbpedia.org/property/
+SELECT *
+WHERE {
+?artist http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/MusicalArtist .
+?artist http://dbpedia.org/property/genre http://dbpedia.org/resource/Hard_rock .
+?artist http://dbpedia.org/property/genre http://dbpedia.org/resource/Thrash_metal .
+?artist http://dbpedia.org/property/genre http://dbpedia.org/resource/Speed_metal .
+}

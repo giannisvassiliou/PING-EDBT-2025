@@ -1,0 +1,7 @@
+PREFIX dbonto : http://dbpedia.org/ontology/
+PREFIX skos : http://www.w3.org/2004/02/skos/core#
+SELECT *
+WHERE {
+?film http://www.w3.org/2004/02/skos/core#subject <http://dbpedia.org/resource/Category:Films_set_in_New_York_City> .
+?film http://dbpedia.org/ontology/starring http://dbpedia.org/resource/Audrey_Hepburn .
+}

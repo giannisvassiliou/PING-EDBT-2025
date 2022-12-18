@@ -1,0 +1,8 @@
+SELECT *
+WHERE {
+?place <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> .
+?place <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/gml/_Feature> .
+?place <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ?latitude .
+?place <http://www.w3.org/2003/01/geo/wgs84_pos#long> ?longitude .
+?place <http://www.w3.org/2000/01/rdf-schema#label> ?place_name .
+}

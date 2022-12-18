@@ -1,0 +1,5 @@
+PREFIX dbpo : http://dbpedia.org/ontology/
+SELECT *
+WHERE {
+?a <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> http://dbpedia.org/ontology/MusicalArtist .
+}

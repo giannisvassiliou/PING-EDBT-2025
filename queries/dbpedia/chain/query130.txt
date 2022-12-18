@@ -1,0 +1,5 @@
+PREFIX dbpedia2 : http://dbpedia.org/property/
+SELECT *
+WHERE {
+?group http://dbpedia.org/property/currentMembers http://dbpedia.org/resource/Fred_Durst .
+}

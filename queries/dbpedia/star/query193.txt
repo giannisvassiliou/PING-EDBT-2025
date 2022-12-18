@@ -1,0 +1,6 @@
+SELECT *
+WHERE {
+?motorway <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Road> .
+?motorway <http://dbpedia.org/ontology/length> ?length .
+?motorway <http://xmlns.com/foaf/0.1/name> ?name .
+}

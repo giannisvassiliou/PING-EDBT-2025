@@ -1,0 +1,6 @@
+PREFIX skos : http://www.w3.org/2004/02/skos/core#
+SELECT *
+WHERE {
+?county http://www.w3.org/2004/02/skos/core#subject <http://dbpedia.org/resource/Category:Cities_in_Texas> .
+?county http://www.w3.org/2004/02/skos/core#subject <http://dbpedia.org/resource/Category:County_seats_in_Texas> .
+}

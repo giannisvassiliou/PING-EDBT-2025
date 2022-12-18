@@ -1,0 +1,4 @@
+SELECT *
+WHERE {
+<http://dbpedia.org/resource/Stewkley> <http://dbpedia.org/property/shireCounty> ?shireCounty .
+}

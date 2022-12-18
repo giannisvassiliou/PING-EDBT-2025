@@ -1,0 +1,9 @@
+PREFIX rdf : http://www.w3.org/1999/02/22-rdf-syntax-ns#
+PREFIX dbo : http://dbpedia.org/ontology/
+PREFIX dbpedia2 : http://dbpedia.org/property/
+SELECT *
+WHERE {
+?Person http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Wrestler .
+?Person http://dbpedia.org/property/name ?name .
+?Person http://dbpedia.org/property/weight ?weight .
+}

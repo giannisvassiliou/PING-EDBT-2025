@@ -1,0 +1,6 @@
+PREFIX skos : http://www.w3.org/2004/02/skos/core#
+SELECT *
+WHERE {
+?cat http://www.w3.org/2004/02/skos/core#broader <http://dbpedia.org/resource/Category:Palaces_in_France> .
+?cat http://www.w3.org/2004/02/skos/core#broader <http://dbpedia.org/resource/Category:Museums_in_Paris> .
+}

@@ -1,0 +1,5 @@
+PREFIX dbpedia2 : http://dbpedia.org/property/
+SELECT *
+WHERE {
+<http://dbpedia.org/resource/Amsterdam http://dbpedia.org/property/populationTotal ?inwoners .
+}

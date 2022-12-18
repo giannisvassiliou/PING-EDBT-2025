@@ -1,0 +1,7 @@
+PREFIX rdf : http://www.w3.org/1999/02/22-rdf-syntax-ns#
+PREFIX dbpedia2 : http://dbpedia.org/property/
+SELECT *
+WHERE {
+?data http://www.w3.org/1999/02/22-rdf-syntax-ns#type <http://dbpedia.org/ontology/FormulaOneRacer> .
+?data http://dbpedia.org/property/wins ?wins .
+}

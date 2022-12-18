@@ -1,0 +1,9 @@
+PREFIX rdf : http://www.w3.org/1999/02/22-rdf-syntax-ns#
+PREFIX dbpedia : http://dbpedia.org/ontology/
+SELECT *
+WHERE {
+?b http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Film .
+?c http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Artist .
+?b http://dbpedia.org/ontology/director <http://dbpedia.org/resource/Clint_Eastwood> .
+?b http://dbpedia.org/ontology/starring ?c .
+}

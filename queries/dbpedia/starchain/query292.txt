@@ -1,0 +1,10 @@
+PREFIX rdf : http://www.w3.org/1999/02/22-rdf-syntax-ns#
+PREFIX dbpedia : http://dbpedia.org/ontology/
+SELECT *
+WHERE {
+?a http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Artist .
+?b http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Artist .
+?c http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Film .
+?c http://dbpedia.org/ontology/starring ?a .
+?c http://dbpedia.org/ontology/starring ?b .
+}

@@ -1,0 +1,9 @@
+PREFIX rdf : http://www.w3.org/1999/02/22-rdf-syntax-ns#
+PREFIX dbpedia : http://dbpedia.org/ontology/
+SELECT *
+WHERE {
+?c http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Band .
+?b http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Film .
+<http://dbpedia.org/resource/The_Quarrymen> http://dbpedia.org/ontology/associatedBand ?c .
+?b http://dbpedia.org/ontology/musicComposer ?c .
+}

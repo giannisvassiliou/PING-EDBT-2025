@@ -1,0 +1,8 @@
+PREFIX rdfs : http://www.w3.org/2000/01/rdf-schema#
+SELECT *
+WHERE {
+?lang <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Language> .
+?nation <http://dbpedia.org/ontology/language> ?lang .
+?nation <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Country> .
+?nation http://www.w3.org/2000/01/rdf-schema#comment ?com .
+}

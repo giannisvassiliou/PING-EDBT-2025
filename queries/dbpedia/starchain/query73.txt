@@ -1,0 +1,9 @@
+PREFIX rdf : http://www.w3.org/1999/02/22-rdf-syntax-ns#
+PREFIX dbpedia : http://dbpedia.org/ontology/
+SELECT *
+WHERE {
+?b http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Artist .
+?c http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Work .
+?c http://dbpedia.org/ontology/starring <http://dbpedia.org/resource/George_Harrison> .
+?c http://dbpedia.org/ontology/starring ?b .
+}

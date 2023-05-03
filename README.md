@@ -1,4 +1,4 @@
-[# PING
+# PING
 
 ## Compile PING
 ##### First you need to install maven to build PING. Then in the root folder where pom.xml exists, run:

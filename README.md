@@ -1,13 +1,13 @@
-# SMARTER
+[# PING
 
-## Compile SMARTER
-##### First you need to install maven to build SMARTER. Then in the root folder where pom.xml exists, run:
+## Compile PING
+##### First you need to install maven to build PING. Then in the root folder where pom.xml exists, run:
 ##### mvn package
 ##### A target folder should be created if everything builds correctly with the jar inside.
 
-## Run SMARTER
-##### To run SMARTER you first need to install java (version 16+), Apache Spark (version 2.2+) and Hadoop (version 2.7+). Also hdfs command (inside of bin/ in hadoop) should be set as an environment variable(be visible as hdfs inside SMARTER).
-##### To run each of the components of SMARTER (partitioner, query translator, query executor) the appropriate script should be used.
+## Run PING
+##### To run PING you first need to install java (version 16+), Apache Spark (version 2.2+) and Hadoop (version 2.7+). Also hdfs command (inside of bin/ in hadoop) should be set as an environment variable(be visible as hdfs inside PING).
+##### To run each of the components of PING (partitioner, query translator, query executor) the appropriate script should be used.
 ##### Inside of the folder scripts/ the appropriate scripts can be found. For the hierarchical levels and indexes (run_summary)  For partitioner (run_partitioner.sh), for query translator (run_translator.sh), for progressive query answering (run_pqa.sh) and for exact query answering (run_queries.sh).
 ##### Each script should be modified accordingly with the steps bellow.
 
@@ -40,7 +40,7 @@
 ### Firstly, run the summary.jar to create the summary (hierarchical levels) and the corresponding indexes
 ##### ./run_psummary.sh  dataset_path summary_output_folder 
 
-### To partition data using SMARTER use the script run_partitioner like this:
+### To partition data using PING use the script run_partitioner like this:
 ##### ./run_partitioner.sh  dataset_name hdfs_path dataset_hdfs_path levels_hdfs_path
 
 ### To translate sparql queries use the script run_translator like this:
@@ -51,3 +51,4 @@
 
 ### To execute the translated queries use the script run_query like this:
 ##### ./run_queries.sh  dataset_name hdfs_path translated_queries_folder
+](https://anonymous.4open.science/r/PING_ISWC_2023-B9F3)

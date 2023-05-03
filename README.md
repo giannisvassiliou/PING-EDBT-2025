@@ -51,4 +51,4 @@
 
 ### To execute the translated queries use the script run_query like this:
 ##### ./run_queries.sh  dataset_name hdfs_path translated_queries_folder
-]
+

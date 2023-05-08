@@ -1,5 +1,5 @@
 spark-submit \
---class org.ics.isl.QueryProcessor \
+--class org.iswc.ping.QueryProcessor \
 --driver-memory DRIVER_MEM \
 --executor-memory EXECUTOR_MEM \
 --conf spark.speculation=true \

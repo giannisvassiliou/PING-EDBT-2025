@@ -1,4 +1,4 @@
-package org.eswc.smarter
+package org.iswc.ping
 
 object Constants {
 

@@ -41,7 +41,7 @@ Each script should be modified accordingly with the steps bellow. In every scrip
  
 ### Firstly, run the summary.jar to create the hierarchical levels and the corresponding indexes
 ```
-./run_psummary.sh  dataset_path summary_output_folder
+./run_summary.sh  dataset_path summary_output_folder
 ``` 
 ### To partition data using PING use the script run_partitioner like this:
 ```

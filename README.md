@@ -1,4 +1,5 @@
 # PING
+PING is a  novel system, built on top of Spark, for progressively processing RDF queries. In the system query processing relies on a hierarchical schema structure, which facilitates effective data partitioning. Moreover, it allows the RDF query evaluation algorithms to directly locate the different levels of the hierarchy required for query answering. This also enables answering queries progressively, by sequentially visiting the various levels of the hierarchy.
 
 ## Compile PING
 First you need to install maven to build PING. Then in the root folder where pom.xml exists, run:

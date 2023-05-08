@@ -38,7 +38,7 @@ Each script should be modified accordingly with the steps bellow. In every scrip
 * **translated_queries_folder:** the folder with the result SQL queries translated from the input sparql queries
 
  
-### Firstly, run the summary.jar to create the summary (hierarchical levels) and the corresponding indexes
+### Firstly, run the summary.jar to create the hierarchical levels and the corresponding indexes
 ```
 ./run_psummary.sh  dataset_path summary_output_folder
 ``` 

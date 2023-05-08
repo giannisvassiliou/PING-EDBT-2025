@@ -1,20 +1,21 @@
 # PING
 
 ## Compile PING
-##### First you need to install maven to build PING. Then in the root folder where pom.xml exists, run:
-##### mvn package
-##### A target folder should be created if everything builds correctly with the jar inside.
+First you need to install maven to build PING. Then in the root folder where pom.xml exists, run:
+```
+mvn package
+```
+A target folder should be created if everything builds correctly with the jar inside.
 
 ## Run PING
-##### To run PING you first need to install java (version 16+), Apache Spark (version 2.2+) and Hadoop (version 2.7+). Also hdfs command (inside of bin/ in hadoop) should be set as an environment variable(be visible as hdfs inside PING).
-##### To run each of the components of PING (partitioner, query translator, query executor) the appropriate script should be used.
-##### Inside of the folder scripts/ the appropriate scripts can be found. For the hierarchical levels and indexes (run_summary)  For partitioner (run_partitioner.sh), for query translator (run_translator.sh), for progressive query answering (run_pqa.sh) and for exact query answering (run_queries.sh).
-##### Each script should be modified accordingly with the steps bellow.
+To run PING you first need to install java (version 16+), Apache Spark (version 2.2+) and Hadoop (version 2.7+). Also hdfs command (inside of bin/ in hadoop) should be set as an environment variable(be visible as hdfs inside PING).
+
+To run each of the components of PING (partitioner, query translator, query executor) the appropriate script should be used.
+Inside of the folder #[scripts](https://github.com/giannisvassiliou/PING_ISWC_2023/tree/main/scripts)# the appropriate scripts can be found. For the hierarchical levels and indexes (run_summary)  For partitioner (run_partitioner.sh), for query translator (run_translator.sh), for progressive query answering (run_pqa.sh) and for exact query answering (run_queries.sh).
+
+Each script should be modified accordingly with the steps bellow. In every script modify all fields of spark submit (master, memory,path_to_jar etc.)
 
 
-
-### Scripts modification
-##### In every script modify all fields of spark submit (master, memory,path_to_jar etc.)
 
 ### Script Argument
 

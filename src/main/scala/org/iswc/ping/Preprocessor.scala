@@ -1,4 +1,4 @@
-package org.eswc.smarter
+package org.iswc.ping
 
 import org.apache.spark.sql.SparkSession
 import sys.process._

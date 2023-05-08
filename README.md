@@ -51,8 +51,10 @@ Each script should be modified accordingly with the steps bellow. In every scrip
 ./run_translator.sh  dataset_name hdfs_path sparql_input_folder property_level subject_indexes_folder object_index
 ```
 ### To have progressive query answering of the translated queries use the script run_pqa like this:
-``` ./run_pqa.sh  dataset_name hdfs_path translated_queries_folder
+``` 
+./run_pqa.sh  dataset_name hdfs_path translated_queries_folder
 ```
 ### To execute the translated queries use the script run_query like this:
-``` ./run_queries.sh  dataset_name hdfs_path translated_queries_folder
+``` 
+./run_queries.sh  dataset_name hdfs_path translated_queries_folder
 ```
